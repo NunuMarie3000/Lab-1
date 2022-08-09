@@ -1,0 +1,31 @@
+.cute-font{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+}
+.app-container{
+    margin: 5vh 5vw;
+    background-color: white;
+    border-radius: 2em/3em;
+    padding: 20px;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    border: solid 4px rgb(99, 23, 23);
+    border-radius: 2em/3em;
+}
+.img:hover{
+    cursor: pointer;
+    opacity: .4;
+}
+
+.beast-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+}
